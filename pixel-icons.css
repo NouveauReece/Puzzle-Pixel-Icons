@@ -1,0 +1,86 @@
+/*
+ * Puzzle Pixel Icons
+ * Copyright © NouveauReece (Reece Needham)
+ * MIT License
+ * 
+ * Code inspired by Bootstrap Icons (icons.getbootstrap.com)
+ * Bootstrap Icons are available under the MIT License
+ */
+
+@font-face {
+    font-family: 'puzzle-pixel-icons';
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+    src:  url('fonts/puzzle-pixel-icons.eot?98z1ay');
+    src:  url('fonts/puzzle-pixel-icons.eot?98z1ay#iefix') format('embedded-opentype'),
+      url('fonts/puzzle-pixel-icons.ttf?98z1ay') format('truetype'),
+      url('fonts/puzzle-pixel-icons.woff?98z1ay') format('woff'),
+      url('fonts/puzzle-pixel-icons.svg?98z1ay#puzzle-pixel-icons') format('svg');
+  }
+  
+.ppi::before,
+[class^="ppi-"]::before,
+[class*=" ppi-"]::before  {
+    font-family: 'puzzle-pixel-icons' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .ppi-accessibility:before {
+    content: "\e900";
+  }
+  .ppi-check:before {
+    content: "\e90e";
+  }
+  .ppi-duck:before {
+    content: "\e918";
+  }
+  .ppi-ellipse:before {
+    content: "\e919";
+  }
+  .ppi-info:before {
+    content: "\e927";
+  }
+  .ppi-magic-book:before {
+    content: "\e935";
+  }
+  .ppi-map:before {
+    content: "\e943";
+  }
+  .ppi-muted:before {
+    content: "\e95f";
+  }
+  .ppi-options:before {
+    content: "\e96b";
+  }
+  .ppi-person:before {
+    content: "\e975";
+  }
+  .ppi-play:before {
+    content: "\e987";
+  }
+  .ppi-puzzle:before {
+    content: "\e991";
+  }
+  .ppi-question-mark:before {
+    content: "\e9a3";
+  }
+  .ppi-scroll:before {
+    content: "\e9af";
+  }
+  .ppi-sparkle:before {
+    content: "\e9d1";
+  }
+  .ppi-volume:before {
+    content: "\e9dd";
+  }
+  .ppi-x:before {
+    content: "\e9e9";
+  }
+  
