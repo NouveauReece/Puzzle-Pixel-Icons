@@ -1,7 +1,7 @@
 # Puzzle Pixel Icons
 A Collection of Pixel Art Icons... Originally Developed for Mega Puzzle 2024  
 
-View the full collection of icons using the [Icon Catalogue](index.html)
+View the full collection of icons using the [Icon Catalogue](https://nouveaureece.github.io/Puzzle-Pixel-Icons/)
 
 ## Install
 To import the CSS for these icons onto a page, simply add this `<link>` within the `<head>` section of your HTML file...
