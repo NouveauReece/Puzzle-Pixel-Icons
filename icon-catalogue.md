@@ -1,10 +1,10 @@
 # Icon Catalogue
 <link rel="stylesheet" href="https://nouveaureece.github.io/Puzzle-Pixel-Icons/pixel-icons.css">
-<style> 
+<!-- <style> 
     i {
         font-size: 3rem;
     }
-</style>
+</style> -->
 <table>
         <tr>
             <th>Icon</th>
