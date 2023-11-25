@@ -3,26 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puzzle Pixel Icons Demo</title>
+    <title>Puzzle Pixel Icons Catalogue</title>
     <link rel="stylesheet" href="https://nouveaureece.github.io/Puzzle-Pixel-Icons/pixel-icons.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+        body {
+            background-color: rgb(31,31,31);
+            color: #d5d5d5;
+            font-family: 'Inter', sans-serif;
+        }
+        a {
+            color: rgb(183, 103, 233);
+        }
+        table {
+            margin-top: 30px;
+            border-collapse: collapse;
+        }
         th, td {
             text-align: left;
-            padding: 0px 10px;
+            padding: 5px 10px;
+            border-bottom: 1px solid #646464;
         }
-        td > i {
-            font-size: 2rem;
+        th {
+            border-bottom: solid #d5d5d5 1px;
+            padding-bottom: 5px;
         }
+        td > i::before {
+            font-size: 3rem;
+            color: white;
+        }
+
     </style>
 </head>
 <body>
-    <h1>Puzzle Pixel Icons</h1>
-    <p>Here's a brief demo of how you can use these icons.</p>
+    <h1>Puzzle Pixel Icons Catalogue</h1>
     <p>For more information, <a href="https://github.com/NouveauReece/Puzzle-Pixel-Icons">visit the repo on GitHub</a>.</p>
     <table>
         <tr>
             <th>Icon</th>
             <th>Class</th>
+            
         </tr>
         <tr>
             <td><i class="ppi-accessibility"></i></td>
