@@ -1,25 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puzzle Pixel Icons Demo</title>
-    <link rel="stylesheet" href="https://nouveaureece.github.io/Puzzle-Pixel-Icons/pixel-icons.css">
-    <style>
-        th, td {
-            text-align: left;
-            padding: 0px 10px;
-        }
-        td > i {
-            font-size: 2rem;
-        }
-    </style>
-</head>
-<body>
-    <h1>Puzzle Pixel Icons</h1>
-    <p>Here's a brief demo of how you can use these icons.</p>
-    <p>For more information, <a href="https://github.com/NouveauReece/Puzzle-Pixel-Icons">visit the repo on GitHub</a>.</p>
-    <table>
+# Icon Catalogue
+<link rel="stylesheet" href="https://nouveaureece.github.io/Puzzle-Pixel-Icons/pixel-icons.css">
+<style> 
+    i {
+        font-size: 3rem;
+    }
+</style>
+<table>
         <tr>
             <th>Icon</th>
             <th>Class</th>
@@ -93,5 +79,3 @@
             <td>ppi-x</td>
         </tr>
     </table>
-</body>
-</html>
