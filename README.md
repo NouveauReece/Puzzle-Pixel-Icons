@@ -14,10 +14,13 @@ Copy the `icons.svg` file to your project directory (or, if you really have to, 
 Include the following HTML whenever using an icon, replacing with your desired icon from the [Icon Catalogue](https://nouveaureece.github.io/Puzzle-Pixel-Icons/): 
 ```
 <svg role="img">
-    <use xlink:href="icons.svg#ppi-accessibility">
+    <title>A rubber duck with its wings tucked against its body</title>
+    <use xlink:href="icons.svg#ppi-duck">
 </svg>
 ```
-This will automatically give you `aria-label` and `title` functionality. If the icon is decorative, be sure to include `aria-hidden="true"` on the `<svg>` element.
+Including the `<title>` element will provide both `aria-label` and hover tooltip functionality (and is highly encouraged)! If the icon is decorative, be sure to include `aria-hidden="true"` on the `<svg>` element.
+
+**Note:** it is not required that you include `role="img"` on your `<svg>` element. That being said, a squashed bug in WebKit (Safari, iOS, macOS) did prevent SVGs from being read as images at one point, and this was a solution to that issue.
 
 ## Alternate Method
 ### Install
